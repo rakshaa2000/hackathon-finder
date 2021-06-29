@@ -1,4 +1,4 @@
-# Hackathonn Finder Bot
+# Hackathon Finder Bot
 
 A bot to get updates on latest MLH Hackathons
 
