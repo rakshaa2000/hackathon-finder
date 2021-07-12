@@ -9,7 +9,7 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 client = discord.Client()
 
-URL = 'https://mlh.io/seasons/2021/events'
+URL = 'https://mlh.io/seasons/2022/events'
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 new_results = soup.find_all('div',class_='container feature')
